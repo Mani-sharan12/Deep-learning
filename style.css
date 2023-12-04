@@ -7,20 +7,17 @@
     font-family: 'Play', sans-serif;
 }
 
-/* 
-font-family: 'Lobster', sans-serif;
-font-family: 'Play', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Rubik', sans-serif;
-*/
-
 .container {
     width: 100%;
     height: 100dvh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
+    /* background-color: #333; */
+    background-image: url("https://assets-global.website-files.com/634e928d7acf0e5b9297c41b/637b636f8832c52ac1e9dace_6148448683ea0a6d42e27c3e_Customer%2520Service%2520Chatbots%2520Hero.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -28,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    color: #fff;
+    margin-bottom: 300px
+}
 
 
 .card {
@@ -37,6 +38,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #16436A;
+    border-radius: 30px
 }
 
 .button-29 {
